@@ -9,11 +9,11 @@ from gtts import gTTS
 # Set the environment variable on your system with the command:
 # export API_KEY="your_api_key"
 
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+openai.api_key = os.environ.get("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")
 
 # Setup telegram bot auth
 #bot = telebot.TeleBot(' enter telegram token here ')
-bot_api = os.environ.get("TELEGA_BOT_API")
+bot_api = os.environ.get("6247953312:AAFV_mYUJEzr3vd5qQtRfJCkQU6g54NxmhE")
 bot = telebot.TeleBot(bot_api)
 
 
